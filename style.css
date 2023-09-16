@@ -121,6 +121,11 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, transparent 30%, transparent 70%, rgba(0, 0, 0, 0.4) 100%);
   box-shadow: inset 0 0 6px 2px rgba(0, 0, 0, 0.3);
 }
+.game-container {
+  background-image: url(https://josueclopez.github.io/webp1.github.io/si2.jpeg);
+  background-size: cover; /* Esto ajustará la imagen de fondo para cubrir todo el contenedor */
+  /* Otras propiedades de estilo que desees agregar */
+}
 /* Estilos para el botón */
 #spinAgainBtn {
   display: none;
