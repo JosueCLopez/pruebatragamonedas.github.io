@@ -56,6 +56,10 @@ const roll = (reel, offset = 0) => {
 /**
  * Roll all reels, when promise resolves roll again
  */
+function restartSlotMachine() {
+  // Recarga la página actual
+  window.location.reload();
+}
 function rollAll() {
   debugEl.classList.add('centered-text', 'responsive-text');
   debugEl.textContent = 'Probando tu suerte...';
