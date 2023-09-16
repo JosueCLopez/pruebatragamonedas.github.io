@@ -60,6 +60,8 @@ function restartSlotMachine() {
   // Recarga la página actual
   window.location.reload();
 }
+// Agrega la clase "game-container" al elemento body
+document.body.classList.add('game-container');
 function rollAll() {
   debugEl.classList.add('centered-text', 'responsive-text');
   debugEl.textContent = 'Probando tu suerte...';
