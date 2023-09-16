@@ -132,6 +132,9 @@ body {
   cursor: pointer;
   font-size: 18px;
   transition: background-color 0.3s ease;
+  margin: inherit;
+  margin-bottom: -20em;
+  margin-left: -13em;
 }
 
 #spinAgainBtn:hover {
